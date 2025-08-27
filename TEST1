@@ -1,49 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Intro to Computing</title>
+    <title>HTML Table</title>
+    <style>
+        table, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
 </head>
 <body bgcolor="maroon">
+    <center>
+        <h1><font color="Green" size="10"></font></h1>
 
-    <table border="1" cellspacing="0" cellpadding="20" align="center" bgcolor="white">
-        <!-- Row 1 -->
-        <tr>
-            <td colspan="6"></td>
-        </tr>
+        <!-- Row 1 (3 images) -->
+<table border="1" width="1200" bgcolor="green">
+    <tr>
+        <td width="400" height="150"><center><img src="perps.jpeg" width="100" height="100"></center></td>
+        <td width="400" height="150"><center><img src="collegeof.png" width="600" height="120"></center></td>
+        <td width="400" height="150"><center><img src="ccs.jpeg" width="100" height="100"></center></td>
+    </tr>
+</table>
 
-        <!-- Row 2 -->
-        <tr>
-            <td colspan="2"></td>
-            <td colspan="2"></td>
-            <td colspan="2"></td>
-        </tr>
+        <!-- Row 2 (5 images) -->
+        <table border="1" width="1200" bgcolor="green">
+            <tr>
+                <td width="240" height="100"><center><img src="flag1.png" ></center></td>
+                <td width="240" height="100"><center><img src="flag3.png" ></center></td>
+                <td width="240" height="100"><center><img src="flag4.jpeg" ></center></td>
+                <td width="240" height="100"><center><img src="flag5.png" ></center></td>
+                <td width="240" height="100"><center><img src="flag11.jpeg" width="100%" height="100%"></center></td>
+            </tr>
+        </table>
 
-        <!-- Row 3 -->
-        <tr>
-            <td colspan="3"></td>
-            <td colspan="3"></td>
-        </tr>
+        <!-- Row 3 (6 images) -->
+        <table border="1" width="1200" bgcolor="green">
+            <tr>
+                <td width="200" height="100"><center><img src="flag1.jpeg" width="100%" height="100%"></center></td>
+                <td width="200" height="100"><center><img src="flag2.png" width="100%" height="100%"></center></td>
+                <td width="200" height="100"><center><img src="icc3.jpeg" width="100%" height="100%"></center></td>
+                <td width="200" height="100"><center><img src="icc4.jpeg" width="100%" height="100%"></center></td>
+                <td width="200" height="100"><center><img src="icc5.jpeg" width="100%" height="100%"></center></td>
+                <td width="200" height="100"><center><img src="flag3.jpeg" width="100%" height="100%"></center></td>
+            </tr>
+        </table>
 
-        <!-- Row 4 -->
-        <tr>
-            <td colspan="2"></td>
-            <td colspan="2"></td>
-            <td colspan="2"></td>
-        </tr>
+        <!-- Row 4 (7 images) -->
+        <table border="1" width="1200" bgcolor="green">
+            <tr>
+                <td width="171" height="100"><center><img src="p1.png" width="100%" height="100%"></center></td>
+                <td width="171" height="100"><center><img src="p2.png" width="100%" height="100%"></center></td>
+                <td width="171" height="100"><center><img src="p3.png" width="100%" height="100%"></center></td>
+                <td width="171" height="100"><center><img src="p4.png" width="100%" height="100%"></center></td>
+                <td width="171" height="100"><center><img src="p5.png" width="100%" height="100%"></center></td>
+                <td width="171" height="100"><center><img src="p6.png" width="100%" height="100%"></center></td>
+                <td width="171" height="100"><center><img src="p7.png" width="100%" height="100%"></center></td>
+            </tr>
+        </table>
 
-        <!-- Row 5 -->
-        <tr>
-            <td colspan="3"></td>
-            <td colspan="3"></td>
-        </tr>
-
-        <!-- Footer Row -->
-        <tr bgcolor="green">
-            <td colspan="6" align="center">
-                Introduction to Computing Prelim Examination
-            </td>
-        </tr>
-    </table>
-
+        <!-- Footer -->
+        <table border="1" width="1200" bgcolor="green">
+            <tr>
+                <td colspan="7" height="80">
+                    <center><font color="black" size="5">Introduction to Computing Prelim Examination</font></center>
+                </td>
+            </tr>
+        </table>
+    </center>
 </body>
 </html>
